@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sejarah IPM - IPM TARA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="IPM.png" alt="IPM Logo">
+                <h2>IPM TARA</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Beranda</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#profil" class="nav-link dropdown-toggle">Profil <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="sejarah-ipm.html" class="dropdown-link active">Sejarah IPM</a></li>
+                        <li><a href="struktur-pd.html" class="dropdown-link">Struktur PD IPM Sragen</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#direktori" class="nav-link">Direktori</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#seputar-ipm" class="nav-link">Seputar IPM</a>
+                </li>
+                <li class="nav-item">
+                    <a href="forum.html" class="nav-link">Forum</a>
+                </li>
+                <li class="nav-item">
+                    <a href="quiz.html" class="nav-link">Kuis</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#kta" class="nav-link">KTA</a>
+                </li>
+            </ul>
+            <div class="nav-auth">
+                <button class="btn btn-login" onclick="openLoginModal()">
+                    <i class="fas fa-sign-in-alt"></i> Masuk
+                </button>
+                <button class="btn btn-register" onclick="openRegisterModal()">
+                    <i class="fas fa-user-plus"></i> Daftar
+                </button>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 60vh; padding-top: 100px;">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Sejarah <span class="highlight">Ikatan Pelajar Muhammadiyah</span></h1>
+                <p class="hero-subtitle">Mengenal perjalanan panjang organisasi pelajar terbesar di Indonesia</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section">
+        <div class="container">
+            <h2 class="section-title">Perjalanan Sejarah IPM</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">1961</div>
+                    <div class="timeline-content">
+                        <h3>Pembentukan IPM</h3>
+                        <p>Ikatan Pelajar Muhammadiyah (IPM) didirikan pada tanggal 18 Juli 1961 di Yogyakarta sebagai organisasi otonom Muhammadiyah yang khusus menangani masalah kaderisasi pelajar.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-year">1965-1970</div>
+                    <div class="timeline-content">
+                        <h3>Masa Konsolidasi</h3>
+                        <p>IPM mengalami masa konsolidasi dan penguatan struktur organisasi di berbagai daerah. Organisasi ini mulai menetapkan visi dan misi yang jelas dalam membina pelajar Muhammadiyah.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-year">1970-1980</div>
+                    <div class="timeline-content">
+                        <h3>Ekspansi Nasional</h3>
+                        <p>IPM mulai berkembang ke seluruh Indonesia dengan pembentukan cabang-cabang di berbagai provinsi. Program-program pendidikan dan dakwah mulai diintensifkan.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-year">1980-1990</div>
+                    <div class="timeline-content">
+                        <h3>Pembentukan Struktur</h3>
+                        <p>IPM menetapkan struktur organisasi yang lebih jelas dengan pembentukan Pimpinan Pusat, Pimpinan Wilayah, Pimpinan Daerah, dan Pimpinan Cabang di seluruh Indonesia.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-year">1990-2000</div>
+                    <div class="timeline-content">
+                        <h3>Modernisasi Organisasi</h3>
+                        <p>IPM mulai mengadopsi teknologi modern dalam program-programnya. Organisasi ini juga mulai aktif dalam kegiatan sosial dan kemanusiaan di tingkat nasional.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-year">2000-Sekarang</div>
+                    <div class="timeline-content">
+                        <h3>Era Digital</h3>
+                        <p>IPM memasuki era digital dengan memanfaatkan teknologi informasi untuk dakwah dan pendidikan. Organisasi ini menjadi salah satu organisasi pelajar terbesar dan paling berpengaruh di Indonesia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values-section">
+        <div class="container">
+            <h2 class="section-title">Nilai-Nilai Dasar IPM</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Pendidikan</h3>
+                    <p>Mengutamakan pendidikan sebagai sarana utama dalam membentuk karakter dan intelektualitas pelajar</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-mosque"></i>
+                    </div>
+                    <h3>Keislaman</h3>
+                    <p>Menanamkan nilai-nilai Islam yang moderat dan toleran dalam setiap aktivitas organisasi</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Kebersamaan</h3>
+                    <p>Membangun solidaritas dan persaudaraan di antara sesama pelajar Muhammadiyah</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>Kemanusiaan</h3>
+                    <p>Berperan aktif dalam kegiatan sosial dan kemanusiaan untuk kemaslahatan umat</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>IPM TARA</h3>
+                    <p>Ikatan Pelajar Muhammadiyah yang berkomitmen membangun generasi muda berkarakter, berprestasi, dan berakhlak mulia.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Menu Utama</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="sejarah-ipm.html">Sejarah IPM</a></li>
+                        <li><a href="struktur-pd.html">Struktur PD IPM Sragen</a></li>
+                        <li><a href="index.html#direktori">Direktori</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Layanan</h4>
+                    <ul>
+                        <li><a href="forum.html">Forum Diskusi</a></li>
+                        <li><a href="quiz.html">Kuis Online</a></li>
+                        <li><a href="index.html#kta">Pendaftaran KTA</a></li>
+                        <li><a href="index.html#seputar-ipm">Berita & Kegiatan</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontak</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Sragen, Jawa Tengah</p>
+                    <p><i class="fas fa-envelope"></i> info@ipmtara.org</p>
+                    <p><i class="fas fa-phone"></i> +62 271 123456</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 IPM TARA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

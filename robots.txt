@@ -1,0 +1,155 @@
+# =====================================================
+# ROBOTS.TXT FOR WEBSITE IPM TARA
+# =====================================================
+
+# Allow all web crawlers
+User-agent: *
+
+# Allow access to main pages
+Allow: /
+Allow: /index.html
+Allow: /forum.html
+Allow: /quiz.html
+Allow: /sejarah-ipm.html
+Allow: /struktur-pd.html
+
+# Allow access to CSS and JS files
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.ico
+Allow: /*.woff
+Allow: /*.woff2
+Allow: /*.ttf
+Allow: /*.eot
+
+# Disallow access to sensitive files
+Disallow: /config_database.php
+Disallow: /test_database.php
+Disallow: /api_endpoints.php
+Disallow: /database_schema.sql
+Disallow: /database_backup.sql
+Disallow: /backup/
+Disallow: /logs/
+Disallow: /uploads/
+Disallow: /tmp/
+Disallow: /temp/
+Disallow: /cache/
+Disallow: /vendor/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.vscode/
+Disallow: /.idea/
+
+# Disallow access to error pages
+Disallow: /404.html
+Disallow: /500.html
+Disallow: /maintenance.html
+
+# Disallow access to documentation files
+Disallow: /README.md
+Disallow: /README_DATABASE.md
+Disallow: /setup_instructions.md
+Disallow: /deployment_guide.md
+Disallow: /CONTRIBUTING.md
+Disallow: /CODE_OF_CONDUCT.md
+Disallow: /SECURITY.md
+Disallow: /CHANGELOG.md
+Disallow: /LICENSE
+
+# Disallow access to configuration files
+Disallow: /.htaccess
+Disallow: /composer.json
+Disallow: /composer.lock
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /phpstan.neon
+Disallow: /.gitignore
+
+# Disallow access to test files
+Disallow: /test_*.php
+Disallow: /tests/
+Disallow: /coverage/
+
+# Disallow access to backup files
+Disallow: /*.sql
+Disallow: /*.dump
+Disallow: /*.backup
+Disallow: /*.bak
+Disallow: /*.old
+
+# Disallow access to log files
+Disallow: /*.log
+Disallow: /logs/
+Disallow: /error_log
+Disallow: /access_log
+
+# Disallow access to temporary files
+Disallow: /*.tmp
+Disallow: /*.temp
+Disallow: /*.swp
+Disallow: /*.swo
+Disallow: /tmp/
+Disallow: /temp/
+
+# Disallow access to sensitive directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /secure/
+Disallow: /internal/
+Disallow: /system/
+
+# Allow specific search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# Disallow specific search engines (if needed)
+# User-agent: BadBot
+# Disallow: /
+
+# Crawl delay (optional)
+# Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://ipmtara.org/sitemap.xml
+
+# Host declaration (optional)
+# Host: https://ipmtara.org
+
+# =====================================================
+# END OF ROBOTS.TXT
+# =====================================================

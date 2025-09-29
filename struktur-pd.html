@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktur PD IPM Sragen - IPM TARA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="IPM.png" alt="IPM Logo">
+                <h2>IPM TARA</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Beranda</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#profil" class="nav-link dropdown-toggle">Profil <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="sejarah-ipm.html" class="dropdown-link">Sejarah IPM</a></li>
+                        <li><a href="struktur-pd.html" class="dropdown-link active">Struktur PD IPM Sragen</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#direktori" class="nav-link">Direktori</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#seputar-ipm" class="nav-link">Seputar IPM</a>
+                </li>
+                <li class="nav-item">
+                    <a href="forum.html" class="nav-link">Forum</a>
+                </li>
+                <li class="nav-item">
+                    <a href="quiz.html" class="nav-link">Kuis</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#kta" class="nav-link">KTA</a>
+                </li>
+            </ul>
+            <div class="nav-auth">
+                <button class="btn btn-login" onclick="openLoginModal()">
+                    <i class="fas fa-sign-in-alt"></i> Masuk
+                </button>
+                <button class="btn btn-register" onclick="openRegisterModal()">
+                    <i class="fas fa-user-plus"></i> Daftar
+                </button>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 60vh; padding-top: 100px;">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Struktur <span class="highlight">PD IPM Sragen</span></h1>
+                <p class="hero-subtitle">Mengenal kepengurusan Pimpinan Daerah IPM Kabupaten Sragen</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Structure -->
+    <section class="leadership-section">
+        <div class="container">
+            <h2 class="section-title">Struktur Kepengurusan</h2>
+            
+            <!-- Ketua Umum -->
+            <div class="leadership-card main-leader">
+                <div class="leader-photo">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="leader-info">
+                    <h3>Ketua Umum</h3>
+                    <h4>Muhammad Rizki Pratama</h4>
+                    <p>Mahasiswa Universitas Muhammadiyah Surakarta</p>
+                    <div class="leader-contact">
+                        <span><i class="fas fa-phone"></i> +62 812-3456-7890</span>
+                        <span><i class="fas fa-envelope"></i> ketua@ipmsragen.org</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Wakil Ketua -->
+            <div class="leadership-grid">
+                <div class="leadership-card">
+                    <div class="leader-photo">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="leader-info">
+                        <h3>Wakil Ketua I</h3>
+                        <h4>Sarah Indah Sari</h4>
+                        <p>Mahasiswa Universitas Sebelas Maret</p>
+                    </div>
+                </div>
+                <div class="leadership-card">
+                    <div class="leader-photo">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="leader-info">
+                        <h3>Wakil Ketua II</h3>
+                        <h4>Ahmad Fauzi Rahman</h4>
+                        <p>Mahasiswa Universitas Gadjah Mada</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sekretaris -->
+            <div class="leadership-grid">
+                <div class="leadership-card">
+                    <div class="leader-photo">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="leader-info">
+                        <h3>Sekretaris Umum</h3>
+                        <h4>Nurul Hidayah</h4>
+                        <p>Mahasiswa Universitas Muhammadiyah Surakarta</p>
+                    </div>
+                </div>
+                <div class="leadership-card">
+                    <div class="leader-photo">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="leader-info">
+                        <h3>Wakil Sekretaris</h3>
+                        <h4>Dwi Cahyo Nugroho</h4>
+                        <p>Mahasiswa Universitas Sebelas Maret</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bendahara -->
+            <div class="leadership-grid">
+                <div class="leadership-card">
+                    <div class="leader-photo">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="leader-info">
+                        <h3>Bendahara Umum</h3>
+                        <h4>Rizki Amelia Putri</h4>
+                        <p>Mahasiswa Universitas Gadjah Mada</p>
+                    </div>
+                </div>
+                <div class="leadership-card">
+                    <div class="leader-photo">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="leader-info">
+                        <h3>Wakil Bendahara</h3>
+                        <h4>Fajar Adi Prasetyo</h4>
+                        <p>Mahasiswa Universitas Muhammadiyah Surakarta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section class="departments-section">
+        <div class="container">
+            <h2 class="section-title">Bidang-Bidang Kerja</h2>
+            <div class="departments-grid">
+                <div class="department-card">
+                    <div class="department-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Bidang Pendidikan</h3>
+                    <p>Menangani program-program pendidikan dan pengembangan intelektual anggota</p>
+                    <div class="department-head">
+                        <strong>Kepala Bidang:</strong> Siti Nurhaliza
+                    </div>
+                </div>
+                
+                <div class="department-card">
+                    <div class="department-icon">
+                        <i class="fas fa-mosque"></i>
+                    </div>
+                    <h3>Bidang Keagamaan</h3>
+                    <p>Mengkoordinasikan kegiatan keagamaan dan dakwah di kalangan pelajar</p>
+                    <div class="department-head">
+                        <strong>Kepala Bidang:</strong> Abdul Rahman
+                    </div>
+                </div>
+                
+                <div class="department-card">
+                    <div class="department-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Bidang Kaderisasi</h3>
+                    <p>Mengembangkan dan membina kader-kader muda IPM Sragen</p>
+                    <div class="department-head">
+                        <strong>Kepala Bidang:</strong> Maya Sari Dewi
+                    </div>
+                </div>
+                
+                <div class="department-card">
+                    <div class="department-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>Bidang Sosial</h3>
+                    <p>Mengorganisir kegiatan sosial dan kemanusiaan di masyarakat</p>
+                    <div class="department-head">
+                        <strong>Kepala Bidang:</strong> Rizki Pratama
+                    </div>
+                </div>
+                
+                <div class="department-card">
+                    <div class="department-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Bidang Seni & Budaya</h3>
+                    <p>Mengembangkan seni dan budaya Islam di kalangan pelajar</p>
+                    <div class="department-head">
+                        <strong>Kepala Bidang:</strong> Indah Sari
+                    </div>
+                </div>
+                
+                <div class="department-card">
+                    <div class="department-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Bidang Olahraga</h3>
+                    <p>Mengorganisir kegiatan olahraga dan kesehatan jasmani</p>
+                    <div class="department-head">
+                        <strong>Kepala Bidang:</strong> Ahmad Fauzi
+                    </div>
+                </div>
+                
+                <div class="department-card">
+                    <div class="department-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Bidang Teknologi</h3>
+                    <p>Mengembangkan teknologi informasi dan komunikasi</p>
+                    <div class="department-head">
+                        <strong>Kepala Bidang:</strong> Dwi Cahyo
+                    </div>
+                </div>
+                
+                <div class="department-card">
+                    <div class="department-icon">
+                        <i class="fas fa-female"></i>
+                    </div>
+                    <h3>Bidang Perempuan</h3>
+                    <p>Menangani program khusus untuk anggota perempuan</p>
+                    <div class="department-head">
+                        <strong>Kepala Bidang:</strong> Rizki Amelia
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>IPM TARA</h3>
+                    <p>Ikatan Pelajar Muhammadiyah yang berkomitmen membangun generasi muda berkarakter, berprestasi, dan berakhlak mulia.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Menu Utama</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="sejarah-ipm.html">Sejarah IPM</a></li>
+                        <li><a href="struktur-pd.html">Struktur PD IPM Sragen</a></li>
+                        <li><a href="index.html#direktori">Direktori</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Layanan</h4>
+                    <ul>
+                        <li><a href="forum.html">Forum Diskusi</a></li>
+                        <li><a href="quiz.html">Kuis Online</a></li>
+                        <li><a href="index.html#kta">Pendaftaran KTA</a></li>
+                        <li><a href="index.html#seputar-ipm">Berita & Kegiatan</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontak</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Sragen, Jawa Tengah</p>
+                    <p><i class="fas fa-envelope"></i> info@ipmsragen.org</p>
+                    <p><i class="fas fa-phone"></i> +62 271 123456</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 IPM TARA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

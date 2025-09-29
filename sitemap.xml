@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://ipmtara.org/</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Main Pages -->
+    <url>
+        <loc>https://ipmtara.org/index.html</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Forum Page -->
+    <url>
+        <loc>https://ipmtara.org/forum.html</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Quiz Page -->
+    <url>
+        <loc>https://ipmtara.org/quiz.html</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Sejarah IPM Page -->
+    <url>
+        <loc>https://ipmtara.org/sejarah-ipm.html</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Struktur PD Page -->
+    <url>
+        <loc>https://ipmtara.org/struktur-pd.html</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- API Endpoints (if publicly accessible) -->
+    <url>
+        <loc>https://ipmtara.org/api/stats</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Static Assets -->
+    <url>
+        <loc>https://ipmtara.org/styles.css</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <url>
+        <loc>https://ipmtara.org/script.js</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <url>
+        <loc>https://ipmtara.org/forum.css</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <url>
+        <loc>https://ipmtara.org/quiz.css</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <!-- Images -->
+    <url>
+        <loc>https://ipmtara.org/assets/images/logo.png</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <!-- Documentation (if publicly accessible) -->
+    <url>
+        <loc>https://ipmtara.org/README.md</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+
+    <!-- Error Pages (for completeness) -->
+    <url>
+        <loc>https://ipmtara.org/404.html</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.1</priority>
+    </url>
+
+    <url>
+        <loc>https://ipmtara.org/500.html</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.1</priority>
+    </url>
+
+</urlset>
